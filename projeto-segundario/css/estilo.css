@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.centro {
+    text-align: center;
+}
+
+.branco {
+    color: white;
+}
+
+.direita {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+#backfundo {
+    background-image: url(../img/pexels-cris-menles-4621648-20860474.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* faz o fundo ocupar bem */
+}
+
+.centro1 {
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap; /* quebra linhas em telas pequenas */
+    gap: 1rem;       /* espaçamento entre itens */
+}
+
+.linhaesquerda,
+.linhacentro,
+.linhadireita {
+    flex: 1 1 100%;
+}

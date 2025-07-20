@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../img/space-7732492_640.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.centro {
+    text-align: center;
+}
+
+.branco {
+    color: white;
+}
+
+.preto {
+    color: black;
+}
+
+.direita {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+#backfundo {
+    background-image: url(../img/pexels-cris-menles-4621648-20860474.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centro1 {
+    /* float: center não existe, então removi */
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    gap: 1rem; /* reduzido de 200px para 1rem para evitar overflow no mobile */
+    flex-wrap: wrap; /* permite que os itens quebrem linha no celular */
+}
+
+.linhaesquerda {
+    flex: 1 1 40%;
+    text-align: left;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.linhacentral {
+    flex: 1 1 40%;
+    text-align: left;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.linhadireita {
+    flex: 1 1 40%;
+    text-align: right;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.isso {
+    background-color: red;
+    background-image: url(../../projeto-terciario/img/player-7902240_1280-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.este {
+    background-color: aquamarine;
+    background-image: url(../../projeto-terciario/img/lionel-2008448_1280-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* alterado para conter e não ultrapassar a tela no mobile */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 768px) {
+    .linhaesquerda,
+    .linhacentral,
+    .linhadireita {
+        flex: 1 1 100%;
+        height: auto; /* altura flexível no celular */
+    }
+    iframe {
+        height: 300px; /* altura menor para caber na tela */
+    }
+}

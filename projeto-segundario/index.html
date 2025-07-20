@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Pietro henri.">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title> FORMULARIO </title>
+</head>
+<body>
+    <h1  class="centro branco"> FORMULARIO </h1>
+
+    <!--FORMULARIO-->
+   
+     <form>
+     
+    
+ <div id="backfundo" >
+
+    <br><br>
+
+   <!--Nome-->
+
+   <div class="centro"> 
+
+    <label for="nome" class="branco"> Nome: </label> 
+    <input  id="nome" type="text"
+     name="sla" placeholder="digite seu nome" 
+     required> 
+
+    <!--Apelido-->
+   
+    
+     <label  class="centro branco" for="apelido" class="branco"> Apelido online: </label>
+
+    <input   id="apelido" type="text"
+     name="sla" placeholder="digite seu apelido" 
+     required> 
+    
+
+
+    <!--Email-->
+    
+    <br><br><br><br>
+    
+   
+    <label  class="centro branco" for="email" class="branco"> Email: </label>
+
+    <input   id="email" type="email"
+     placeholder="digite seu email" 
+     required>   
+
+    
+
+    <!--senha-->
+    
+    
+     <label  class="centro branco" for="senha"  > Senha: </label>
+
+    <input  id="senha" type="password"
+     name="sla" placeholder="digite sua senha" 
+     required>
+
+    </div>
+
+     <!--2 parte-->
+    <div class="linha">
+    
+        <!--Esquerda-->
+
+    <div class="esquerda">
+
+    <!--Jogo favorito - Esquerda -->
+
+    <br><br>
+
+     <h2 class="branco centro"> Jogo favorito </h2>
+    
+    <!--Jogo Minecraft-->
+    
+    <input  type="radio" id="minecraft" name="Jogo favorito" value="Minecraft" required>
+
+    <label class="branco"for="Minecraft"> Minecraft </label>
+    <br> <br>
+
+    <!--Jogo roblox-->
+   
+     <input type="radio" id="roblox" name="Jogo favorito" value="roblox">
+
+    <label class="branco" for="roblox"> Roblox </label>
+    <br> <br>
+
+    <!--Jogo valorant-->
+
+    <input type="radio" id="valorant" name="Jogo favorito" value="valorant">
+
+    <label class="branco" for="Valorant"> valorant </label>
+
+    <br><br>
+
+    <!--Jogo brawlhalla-->
+
+    <input type="radio" id="" name="Jogo favorito" value="brawlhalla">
+
+    <label class="branco" for="brawlhalla"> brawlhalla </label>
+   
+    <br><br>
+
+    <!-- Grand Theft Auto V (GTA V)-->
+    
+    <input type="radio" id="Grand Theft Auto V (GTA V)" name="Jogo favorito" value="Grand Theft Auto V (GTA V)">
+
+    <label class="branco" for="Grand Theft Auto V (GTA V)"> Grand Theft Auto V (GTA V) </label>
+
+    <br><br>
+
+    <!-- Pou  -->
+      
+    <input type="radio" id="Pou" name="Jogo favorito" value="Pou">
+
+    <label class="branco" for="Pou">Pou  </label>
+    <br><br>
+     
+
+    <!--Outros-->
+
+    <input type="radio" id="Outros" name="Jogo favorito" value="Outros">
+
+    <label class="branco" for="Outros"> Outros </label>
+    
+    </div>
+
+     <!--centro -->
+
+    <div class="linhacentro branco centro">
+
+    <br><br>
+    
+    <h2  class="branco "> hobbies favoritos  </h2>
+
+    <!--Calistenia-->
+
+    <input type="checkbox" id="calistenia" nome="hobbies" value="Calistenia">
+    <label for="calistenia" > Calistenia </label>
+
+    <br><br>
+
+   <!-- Produzir música-->
+
+     <input type="checkbox" id=" Produzir música" nome="hobbies" value=" Produzir música">
+    <label for=" Produzir música"> Produzir música  </label>
+
+    <br><br>
+
+   <!--Programação-->
+   
+
+   <input type="checkbox" id="Programação" nome="hobbies" value="Programação">
+    <label for="Programação"> Programação </label>
+
+    <br><br> 
+
+     <!-- Jogar Games -->
+   
+
+   <input type="checkbox" id=" Jogar videogame " nome="hobbies" value=" Jogar Games ">
+    <label for=" Jogar videogame ">  Jogar Games  </label>
+
+    <br><br>
+
+     <!--Esportes-->
+   
+
+   <input type="checkbox" id="Esportes" nome="hobbies" value="Esportes">
+    <label for="Esportes"> Esportes  </label>
+
+     <!--Assistir animes ou series--->
+   
+     <br><br>
+
+
+   <input type="checkbox" id="-Assistir animes ou series" nome="hobbies" value="-Assistir animes ou series">
+    <label for="-Assistir animes ou series"> Assistir animes ou series </label>
+
+    <br><br>
+
+     <!--outros-->
+     
+    <input type="checkbox" id="Outros" nome="hobbies" value="Outros">
+    <label for="Outros"> Outros </label>
+
+
+
+
+
+    </div>
+
+
+
+
+    <!--direita-->
+    
+    <div class="linhadireita branco centro"> 
+    <br><br>
+        
+    <h2 class="branco centro"> Animes favoritos </h2>
+    
+    <select  name="Animes favoritos" required>
+    <option value="" disabled selected> Selecione seu anime favorito </option>
+    <option value="One piece"> One piece </option>
+    <option value="Solo leveling"> solo leveling </option>
+    <option value="Black clover"> black clover </option>
+    <option value="Beastars"> Beastars </option>
+    <option value="Naruto"> Naruto </option>
+    <option value="Dragon Ball"> Dragon Ball </option>
+    <option value="Demon slayer"> Demon slayer </option>
+    <option value="blue lock"> Blue lock </option>
+    <option value="Outros"> Outros </option>
+
+
+
+
+    </select>
+
+
+    </div>
+
+    
+    </div>
+
+   <br><br><br><br><br><br><br>
+
+   <div>
+
+   <h1 class="centro branco"> Pergunta Crucial   </small>
+    </h1> 
+    <div class="centro branco">
+   <small class="direita branco"> - Porem não obrigatoria </small> </div>
+    
+  <div class="centro">
+
+</small>
+   
+   <div class="centro">
+    <a href="projeto-terciario/index.html" name="cr7 ou messi" target="iframe1" > Cliqui aqui para responder</a> </div>
+     
+    <br><br>
+ 
+    <div clss="centro1">
+
+    <iframe class="centro1" src=""  frameborder="0" name="iframe1"  width="1300" height="600"> clique aqui </iframe>  </div>
+
+   </div>
+
+<br><br><br> <br><br><br><br><br>
+
+<div class="centro">
+
+<input type="submit" value="Enviar Formulario"  width="500px" height="500px"> </div>
+
+
+<br><br><br><br><br>
+
+
+ </div>
+  
+     </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
